@@ -6,7 +6,7 @@ Submitted by: **NAME**
 
 Time spent: **7** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/dannyn-light-and-sound-memory-game
 
 ## Required Functionality
 
@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 - [X] Player can adjust the volume
 
 ## Video Walkthrough (GIF)
-https://recordit.co/uhXe3SiD7c
+<img src="http://g.recordit.co/uhXe3SiD7c.gif" width=1000><br>
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
