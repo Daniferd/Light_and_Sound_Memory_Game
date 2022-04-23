@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+
+    <!-- webpage name-->
+    <title>Light and Sound Memory Game (DN)</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+  </head>
+  <body>
+    <!-- Header & Description -->
+    <h1 class="row justify-content-center">Light and Sound Memory Game</h1>
+    <p class="row justify-content-center">By Danny Nguyen</p>
+    <p class="row justify-content-center">Repeat back the pattern by pressing buttons.</p>
+    
+    <br/>
+
+    <!-- User & Game Statistics -->
+    <div class="row justify-content-center">
+      <!-- Left Column -->
+      <div class="col-3 text-left">
+        <h4>
+          Lives Left: <span id="lives">3</span>
+          <br/>
+          High Score: <span id="highScore">0</span>
+        </h4>
+      </div>
+
+      <!-- Start/Stop Button -->
+      <div class="col-1 text-center">
+        <button id="startBtn" onmousedown="startSound()" onclick="startGame()"> Start </button>
+        <button id="stopBtn" onmousedown="startSound()" class="hidden" onclick="stopGame()"> Stop </button>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-3 text-right">
+        <h4>
+          Time Remaining: <span id="count">10</span>s
+          <br />
+          Current Score: <span id="currentScore">0</span>
+        </h4>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- User Adjustments -->
+    <div class="row justify-content-center">
+      <!-- Number of Patterns-->
+      <div class="col-3 text-left">
+        <h2>
+          Number of Patterns
+          <br/>
+          <button id="patternBtn_Decrease" onclick="patternCountDec()">-</button>
+          <span id="patternCounter"> 2 </span>
+          <button id="patternBtn_Increase" onclick="patternCountInc()">+</button>
+        </h2>
+      </div>
+
+      <!-- Volume Level -->
+      <div class="col-2 text-center">
+        <h3>
+          Volume
+          <br/>
+          <button id="decVolume" onclick="volumeLevelDec()">-</button>
+          <span id="volumeLevel"> 0.5 </span>
+          <button id="incVolume" onclick="volumeLevelInc()">+</button>
+        </h3>
+      </div>
+
+       <!-- Number of Buttons -->
+      <div class="col-3 text-right">
+        <h2>
+          Number of Buttons
+          <br/>
+          <button id="decBut" onclick="buttonCountDec()">-</button>
+          <span id="buttonCounter"> 3 </span>
+          <button id="incBut" onclick="buttonCountInc()">+</button>
+        </h2>
+      </div>
+    </div>
+
+    <br/>
+
+    <!-- Colored Game Buttons -->
+    <div id="gameButtonArea" class="row justify-content-center">
+      <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>
+      <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"></button>
+      <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"></button>
+      <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)" class="hidden"></button>
+      <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone()" onclick="guess(5)" class="hidden"></button>
+      <button id="button6" onmousedown="startTone(6)" onmouseup="stopTone()" onclick="guess(6)" class="hidden"></button>
+      <button id="button7" onmousedown="startTone(7)" onmouseup="stopTone()" onclick="guess(7)" class="hidden"></button>
+      <button id="button8" onmousedown="startTone(8)" onmouseup="stopTone()" onclick="guess(8)" class="hidden"></button>
+      <button id="button9" onmousedown="startTone(9)" onmouseup="stopTone()" onclick="guess(9)" class="hidden"></button>
+    </div>
+  </body>
+</html>

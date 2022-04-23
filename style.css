@@ -1,0 +1,177 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: lightgrey;
+  color: black;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: bold;
+  color: darkblue;
+}
+
+h2 {
+  font-family: verdana, arial, sans-serif;
+  font-style: bold;
+  font-size: 1em;
+  color: black;
+}
+
+h3 {
+  font-family: verdana, arial, sans-serif;
+  font-style: bold;
+  font-size: 1em;
+  color: black;
+}
+
+h4 {
+  font-family: verdana, arial, sans-serif;
+  font-style: bold;
+  font-size: 1em;
+  color: black;
+}
+
+#startBtn {
+  background: green;
+  width: 100px;
+  height: 50px;
+}
+
+#stopBtn {
+  background: red;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Color buttons */
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+  background-size: 100%;
+}
+#button1:active, #button1.lit {
+  background: green;
+}
+
+#button2 {
+  background: lightblue;
+  background-size: 100%;
+}
+#button2:active, #button2.lit {
+  background:blue;
+}
+
+#button3 {
+  background:pink;
+  background-size: 100%;
+}
+#button3:active, #button3.lit {
+  background:red;
+}
+
+#button4 {
+  background:lightyellow;
+  background-size: 100%;
+}
+#button4:active, #button4.lit {
+  background:yellow;
+}
+
+#button5 {
+  background: orange;
+  background-size: 100%;
+}
+#button5:active, #button5.lit {
+  background: orangered;
+}
+
+#button6 {
+  background: #9933FF;
+  background-size: 100%;
+}
+#button6:active, #button6.lit {
+  background: purple;
+}
+
+#button7 {
+  background: #99004c;
+  background-size: 100%;
+}
+#button7:active, #button7.lit {
+  background: #FF3399;
+}
+
+#button8 {
+  background: #606060;
+  background-size: 100%;
+}
+#button8:active, #button8.lit {
+  background: #A0A0A0;
+}
+
+#button9 {
+  background: #660033;
+  background-size: 100%;
+}
+#button9:active, #button9.lit {
+  background: #CC0066;
+}
+
+
+/* ------------------ */
+#currentScore {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#highScore {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#lives {
+  color: Black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#count {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#buttonCounter {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#patternCounter {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#volumeLevel {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
