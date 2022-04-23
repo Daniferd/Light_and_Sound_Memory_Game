@@ -1,10 +1,10 @@
 # Pre-work - *Memory Game*
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's Futureforce Tech Program. 
 
-Submitted by: **NAME**
+Submitted by: **Danny Nguyen**
 
-Time spent: **7** hours spent in total
+Time spent: **8** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/dannyn-light-and-sound-memory-game
 
